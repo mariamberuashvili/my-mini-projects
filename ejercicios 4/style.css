@@ -1,0 +1,16 @@
+h1 {
+    color:rgb(239, 231, 231);
+    background: rgb(8, 8, 8);
+}
+p{
+    color:yellow;
+    background-color:blueviolet;
+}
+a {
+    background-color: aquamarine;
+    color: blue;
+
+}
+ img {
+    background-color: black;
+ }

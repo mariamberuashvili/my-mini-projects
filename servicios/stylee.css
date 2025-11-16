@@ -1,0 +1,60 @@
+ul {
+    background: purple;
+    border: 1px solid plum;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    
+  }
+  ul li a {
+    color: honeydew;
+    display: block;
+    padding: 10px;
+    margin:auto;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid plum;
+    border-right: 1px solid purple;
+  }
+  ul li {   
+    float:left;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+     }
+  ul li a:hover {
+    background-color: plum;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+
+   button a:hover{
+background-color: plum;
+border-bottom: plum;
+
+text-align: center;
+
+            }
+ p {
+    text-align: center;
+ }
+ button {
+    color: white;
+    background-color: plum;
+    width: 100px;
+    display: block;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+ }

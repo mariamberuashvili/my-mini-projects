@@ -1,0 +1,39 @@
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 24px;
+    text-align: center;
+    width: 70%;
+    
+
+
+}
+
+h1 {
+    color: blue;
+    
+}
+.cuerpo {
+    width: 80%;
+}
+
+.lado {
+    width: 200px; 
+    height: 200px; 
+    background-color: rgba(3, 25, 32, 0.107); /* Color de fondo */
+    margin-left: 85%;
+    margin-top: -20%; 
+    border: 5px solid blue;
+
+}
+  footer {
+    margin-top: 5%;
+    
+    text-align: right; 
+    display: block;
+    unicode-bidi: isolate;
+   
+  }

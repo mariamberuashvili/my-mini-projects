@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+    margin: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+}
+.primero { 
+    width: 800px;
+    font-family: verdana;
+
+}
+ .segundo{
+    width: 800px;
+    font-family: verdana;
+    color: white;
+    padding: 10px;
+    background-color: gray;
+    border-top: 3px  solid red;
+    border-bottom: 3px  solid red;
+    border-left: 3px solid green;
+    border-right: 3px solid green;
+
+    
+}
+ 
+.tercero{
+    width:  800px;
+    font-family: verdana;
+}
+
+.principal {
+    margin: 20px;
+
+}

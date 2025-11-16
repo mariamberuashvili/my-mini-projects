@@ -1,0 +1,17 @@
+.principal {
+    display: grid;
+    grid-row-start: center;
+   
+}
+.grid1 {
+    border: 2px solid rgb(0, 0, 0);
+}
+.grid2 {
+    border: 2px solid rgb(0, 0, 0);
+}
+.grid3 {
+    border: 2px solid rgb(0, 0, 0);
+}
+.grid4 {
+    border: 2px solid rgb(0, 0, 0);
+}

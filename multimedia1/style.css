@@ -1,0 +1,22 @@
+.primero {
+    background-color: rgb(58, 55, 55);
+    color: white;
+    width: 90px;
+}
+.segundo{
+    background-color: rgb(154, 152, 152);
+    color: black;
+    width: 90px;
+}
+.lista {
+   margin: 0 auto;
+   width: fit-content;
+ 
+}
+.td {
+    
+        width: 1000px;
+        padding: 10px;
+        display: inline-block;
+}
+

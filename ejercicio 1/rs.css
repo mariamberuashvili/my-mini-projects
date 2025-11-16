@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;1,700&family=Red+Hat+Display:wght@500;900&display=swap');
+ 
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Instrument Sans"; 
+  background-color: black;
+}
+ 
+.primero {
+    
+    width: 300px;
+    float: left;
+    margin: 200px 0px;
+    background-color: white;
+}
+.img {
+    float: left;
+   
+   
+}
+.textR {
+
+width: 150px;
+background-color: white;
+}
+.vertical {
+    border-left: 6px solid green;
+    height: 400px;
+    position: absolute;
+    left: 140px;
+    top: 500px;
+    background-color: white;
+
+}
+.textL {
+    margin-left: 150px;
+    margin-top: -409px;
+    width: 150px;
+    background-color: white;
+}
+.photo2 {
+    float: inline-start;
+    margin-left: 110px;
+}

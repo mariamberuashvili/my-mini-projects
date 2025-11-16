@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+    color: blue;
+}
+ @media all and (min-width: 768px) {
+    #contenedor {
+        max-width: 600px;
+        margin: 0 auto;
+    
+ }
+  .dudas {
+    width: 200px;
+    float: left;
+  }
+  .somos {
+    width: calc(100% -200px);
+  }
+   }
+@media all and (min-width: 1024px) {
+    #contenedor {
+        max-width: 992px;
+    }
+}
+
+ 
+
+ 

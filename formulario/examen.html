@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="examen.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <form id="personForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required><br><br>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required><br><br>
+            <button type="button" onclick="anadirPersona();">Enviar</button>
+        </form>
+        <div class="messages"></div>
+    </div>
+   
+        <p id="datosPersona"></p>
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+
+
+
+#conteiner {
+    background-color: black;
+    max-width: 1200px;
+    margin:0 auto;
+}
+form {
+	width: fit-content;
+}
+.fila {
+	margin-bottom: 0px;
+}
+.colder, .colizq .acolor {
+    display: inline-block
+}
+.colizq{
+    width: 120px;
+    background-color: blue;
+    color: white;
+    text-align: right;
+    padding: 6.65px;
+    box-sizing: border-box;
+    vertical-align: top;
+    
+    margin: 5px 5px;
+    
+}
+.colder {
+    
+    box-sizing: border-box;
+    background-color: red;
+    padding: 5px 80px;
+    
+
+}
+.rojo {
+    
+   width: 100%;
+    box-sizing: border-box;
+}
+.lista {
+    box-sizing: border-box;
+    background-color: red;
+    padding: 10px 200px;
+    display: inline-block;
+
+}
+
+.listas {
+    color: black;
+    background-color: aqua;
+    display: inline-block;
+    padding: 1px 10px;
+}
+
+.colizq1  { 
+    width: 100px;
+    background-color: blue;
+    color: white;
+
+    position: relative;
+    top: -27px;
+    padding: 35px 25px;
+    box-sizing: border-box;
+
+}
+ .colizq2 {  width: 100px;
+    background-color: blue;
+    color: white;
+    text-align: top;
+    padding: 5px 5PX;
+    box-sizing: border-box;
+    
+    margin: 5px 5px;
+    position: relative;
+    top: -8px;
+
+ }
+
+

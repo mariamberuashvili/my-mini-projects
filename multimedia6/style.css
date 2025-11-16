@@ -1,0 +1,22 @@
+.photo {
+    padding: 10px;
+	border: 1px solid #ccc;
+	width: 500px;
+    height: 156px;
+	background-color: #eee;
+	
+	margin: 50px auto;
+	position: relative;
+ }
+ .photo::before {
+    content: "";
+	border: 5px solid gray;
+	width: 95%;
+	height: 83%;
+	position: absolute;
+	
+	z-index: -1;
+	box-shadow: 30px 30px 20px rgba(0,0,0,0.4);
+	
+	
+ }

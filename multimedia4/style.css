@@ -1,0 +1,28 @@
+section {
+	margin: 0 auto;
+	width: 200px;
+}
+figcaption {
+	text-align: center;
+	width: 250px;
+	font-size: 2.5em;
+}
+figure {
+	transform: scale(0.25);
+	height: 90px;
+	position: relative;
+	left: 0px;
+	transition: all 2s linear;	
+}
+figure:target {
+	transform: scale(1.0);
+	left: 250px;
+}
+.cerrar {
+	display: block;
+	position: absolute;
+	top: 0;
+  text-align: right;
+
+	
+}

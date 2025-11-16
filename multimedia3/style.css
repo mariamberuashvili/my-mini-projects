@@ -1,0 +1,27 @@
+section {
+    width: 500px;
+    padding: 60px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(17, 13, 13, 1) ;
+    text-align: left;
+   
+   border: 5px solid blue;
+   color: rgb(106, 105, 105);
+   font-size: 20px;
+    
+}
+summary { 
+    list-style: none;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+p { color: white;
+    font-size: 15px;
+
+background-color: blue;
+}

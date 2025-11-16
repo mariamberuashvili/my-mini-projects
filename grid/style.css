@@ -1,0 +1,56 @@
+header {
+   width: 100%;
+   height: 250px;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+   background-position: center;
+   min-height: 150px;
+   
+   
+    background-image: url(localizacion.jpg);
+}
+
+header h1 {
+    color: white;
+    margin: 0px;
+}
+figure {
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box; 
+    
+}
+main {
+    display: grid;
+    gap: 20px;
+}
+figure img {
+    width: 100%;
+}
+ @media (min-width:400px) {
+    main {
+        grid-template-columns: auto auto;
+    }
+
+ }
+ @media (min-width:768px) {
+    main {
+        grid-template-columns: auto auto auto ;
+    }
+    
+ }
+  @media( min-width: 1024px ) {
+    #contenedor {
+        width: 1000px;
+        margin: 0px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+  }

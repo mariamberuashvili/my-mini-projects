@@ -1,0 +1,23 @@
+section {
+    border: 2px solid black;
+	margin: 0 auto;
+	width: 600px;
+    height: 700px;
+    padding: left;
+}
+figcaption {
+	text-align: center;
+	width: 250px;
+	font-size: 40px;
+}
+figure {
+	transform: scale(0.25);
+	height: 90px;
+	position: relative;
+	left: 0px;
+	transition: all 2s linear;	
+}
+figure:target {
+	transform: scale(1.0);
+	left: 250px;
+}
