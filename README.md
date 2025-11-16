@@ -1,1 +1,30 @@
 # my-mini-projects
+
+    🚀 Mini-Proyectos de Desarrollo Web
+Este repositorio contiene una colección de mis pequeños proyectos y ejercicios realizados utilizando HTML, CSS, y JavaScript. Estos proyectos están diseñados para practicar y demostrar habilidades fundamentales en el desarrollo web front-end. Los ejercicios están organizados en carpetas separadas para mantener una estructura clara y sencilla de navegar. 
+
+
+    📚  Objetivos del repositorio
+
+ Practicar la construcción de interfaces web utilizando HTML y CSS.
+
+ Explorar el uso de Grid para crear diseños modulares y adaptables.
+
+ Aplicar conceptos de Flexbox, tipografías, selectores, posicionamiento y otros fundamentos de estilo.
+
+ integración de elementos multimedia (audio, video, imágenes) y el uso de CSS avanzado para la presentación
+
+ Implementar interacciones  con JavaScript.
+
+ Mostrar un progreso real durante el proceso de aprendizaje.
+
+ Mantener ejemplos prácticos que puedan servir de referencia futura.
+
+
+    Tecnologías utilizadas
+
+1.  HTML5
+
+2. CSS3 (Grid, Flexbox, animaciones, responsive design)
+
+3. JavaScript
