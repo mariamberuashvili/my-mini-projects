@@ -1,0 +1,222 @@
+/* --- Estilos Generales y Mobile-First --- */
+body {
+    max-width: 100%; 
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: red;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+footer .pie {
+    width: 100%;
+    background-color: blue;
+    color: #f4f4f4;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.content {
+    background-color: gray;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+}
+
+/* Imagen de fondo gris-plomo */
+.content > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.principal {
+    background-color: aqua;
+    position: relative;
+    width: 95%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px 20px;
+    color: #f4f4f4;
+    z-index: 2;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px; 
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+/* --- DISPOSICIÓN PRINCIPAL (Móvil: apilado) --- */
+.main-layout-area {
+    display: flex;
+    flex-direction: column; /* Apila las dos columnas en móvil */
+    align-items: center;
+    gap: 30px;
+}
+
+/* COLUMNA IZQUIERDA (IMAGEN) */
+.col-left-image {
+    width: 100%;
+    max-width: 350px; /* Ancho máximo para que no sea muy grande en móvil */
+    text-align: center;
+}
+.img {    
+    height: auto;
+    width: 100%;
+}
+
+/* COLUMNA DERECHA (TEXTO Y DETALLES) */
+.col-right-details {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+p {     
+    width: 100%;
+    max-width: 500px;
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+/* --- SECCIÓN VENTA (CÍRCULO) --- */
+.redondo {
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    color: black;
+    border: 5px solid black;
+    border-radius: 50%; 
+    margin: 30px auto 10px auto;
+    background-color: darkgray;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redondo h1 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+.amazon {
+    font-size: 30px;
+    margin: 0;
+}
+
+.ulrimo {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+/* --- SECCIÓN CONTACTO (.gmail) --- */
+.gmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.glen { 
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    margin: 0 0 5px 0;
+}
+
+.mail {
+    font-size: 16px;
+    color: black;
+    margin: 0 0 10px 0;
+}
+
+.logo { 
+    width: 50px;
+}
+
+/* --- MEDIA QUERY ESCRITORIO (min-width: 900px) --- */
+@media (min-width: 900px) {
+
+    .principal {
+        padding: 60px 40px;
+    }
+    
+    h1 {
+        text-align: left; /* Título principal alineado a la izquierda */
+        font-size: 40px;
+    }
+
+    .main-layout-area {
+        flex-direction: row; /* Pone las dos columnas lado a lado */
+        align-items: flex-start; /* Alinea arriba */
+        justify-content: center; /* Centra el bloque de las dos columnas */
+        gap: 50px;
+    }
+
+    /* COLUMNA IZQUIERDA (IMAGEN) */
+    .col-left-image {
+        width: 40%;
+        max-width: 350px; 
+    }
+
+    /* COLUMNA DERECHA (TEXTO Y DETALLES) */
+    .col-right-details {
+        width: 60%;
+        max-width: 550px;
+        align-items: flex-start; /* Alinea todos los elementos a la izquierda en la columna */
+        text-align: left;
+    }
+
+    p {     
+        text-align: left;
+        margin: 10px 0; /* Quita el margen auto */
+    }
+
+    .redondo {
+        margin: 30px 0 10px 0; /* Lo alinea a la izquierda */
+    }
+
+    .ulrimo {
+        text-align: left;
+    }
+    
+    .gmail {
+        flex-direction: row; /* Pone los elementos de contacto en línea */
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 40px;
+    }
+
+    .glen { 
+        margin-right: 20px;
+    }
+
+    .mail {
+        margin-right: 20px;
+    }
+
+    .logo { 
+        width: 72px;
+    }
+}

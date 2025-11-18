@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;1,700&family=Red+Hat+Display:wght@500;900&display=swap');
+ 
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Instrument Sans"; 
+}
+
+
+body { 
+    
+    background: url("https://s3-alpha-sig.figma.com/img/25c8/5341/4f6fb772b6475074a26acc865b900b52?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BSm3Ei83cpNR~oypHnI-oqzGxHM5erKCPq5w-NI~MHaioOEYaNpkl001Jt-TFMMplPdye~Xy8bySDCg6AkFMvqrrh3eNL99U6wfumOt-wZC1sCNo7Og018DW~YShjEm2HPVTeFXttF6Io~fYa8BWa8ocdaGnWml~GhUiQFqhOrYng1YVFdNSpju7OBk1VVSz76oNVX1hLxV8eL-zr4oTkmIeVdfrqBiutnCJ2WAv1UKiSF0JFcp25kVi5K6y7JPkHuWKIb~Se4JNfYB9aX-4TJwH~gj4QYWXh1xSD821gIH~khKYGVQZikaivy6cje-b9id~BbjPWJFF-Slpue~OpQ__");
+    
+    }
+    h1 {
+        color: black;
+        background-color: blueviolet;
+        text-align: center;
+           
+    }
+
+    a,button {
+      
+        padding: 10px 20px;
+        color: white;
+        display: flex;
+        font-size: 15px;
+        
+        
+        
+       
+     }
+    
+     button {
+        margin: 80px;
+        padding: 10px;
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+        
+       
+}
+.tarjetas {
+    margin: 80px;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    
+}
+.tarjeta {
+    background-color: blueviolet;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+
+    font-weight: 100;
+    line-height: 28px;
+   
+   
+ 
+    
+ }    
+ 
+ .contenido {
+    display: flex;
+    padding: 12px 116px;
+    align-items: center;
+    gap: 150px;
+    align-self: stretch;
+ }
+     
+      
+     
+     

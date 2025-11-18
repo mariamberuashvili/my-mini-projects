@@ -1,0 +1,21 @@
+input {
+    width: 200px;
+    border: 2px solid orchid;
+    padding: 10px;
+}
+input:focus-visible {
+    border: 2px solid blueviolet;
+    outline: none;
+} 
+input[type=sumbit],
+input[type=reset] {
+    width: 100px;
+     background-color: aliceblue;
+     margin: 10px;
+     padding: 10px;
+}
+input[type=sumbit] a:hover,
+input[type=reset] a:hover {
+    background-color: aquamarine;
+    color: aliceblue;
+}
